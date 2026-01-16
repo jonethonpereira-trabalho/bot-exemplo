@@ -1,0 +1,55 @@
+PROJETO: Bot de Automação Web
+TECNOLOGIA: Node.js + Playwright
+
+OBJETIVO:
+Automatizar tarefas repetitivas em sites como Shopee e Mercado Livre,
+simulando ações humanas no navegador (cliques, digitação e navegação).
+
+--------------------------------------------------
+
+TECNOLOGIAS USADAS:
+
+- Node.js
+  Ambiente de execução JavaScript fora do navegador.
+
+- Playwright
+  Biblioteca de automação de navegador (Chromium, Firefox, WebKit).
+
+--------------------------------------------------
+
+COMANDOS UTILIZADOS:
+
+Criar projeto Node:
+npm init -y
+
+Instalar Playwright:
+npm install playwright
+
+Instalar navegadores:
+npx playwright install
+
+Executar o bot:
+node robot-teste.js
+
+--------------------------------------------------
+
+ARQUIVOS IMPORTANTES:
+
+- package.json
+Configura o projeto e dependências.
+
+- robot-teste.js
+Arquivo principal do bot, responsável por:
+- abrir navegador
+- acessar site
+- executar ações automatizadas
+
+--------------------------------------------------
+
+OBSERVAÇÃO:
+O navegador roda em modo visível (headless: false)
+para facilitar testes e demonstrações.
+
+
+site referencia
+https://the-internet.herokuapp.com/
